@@ -5,7 +5,7 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean name="customerRepo" class="com.yash.repository.HibernateCustomerRepoImpl"/>
-    <bean name="customerService" class="com.yash.service.CustomerServiceImpl" autowire="byType">
+    <bean name="customerService" class="com.yash.service.CustomerServiceImpl" autowire="byName">
         <!--<constructor-arg index="0" ref="customerRepo" />-->
     </bean>
 
