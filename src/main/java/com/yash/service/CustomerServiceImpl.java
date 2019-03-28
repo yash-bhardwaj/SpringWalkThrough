@@ -16,6 +16,10 @@ public class CustomerServiceImpl implements CustomerService {
         this.customerRepo = customerRepo;
     }
 
+    public void setCustomerRepo(HibernateCustomerRepo customerRepo) {
+        this.customerRepo = customerRepo;
+    }
+
     public List<Customer> findAll() {
         return customerRepo.findAll();
     }
