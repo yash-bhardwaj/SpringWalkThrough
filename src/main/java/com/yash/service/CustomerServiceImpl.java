@@ -9,6 +9,13 @@ public class CustomerServiceImpl implements CustomerService {
 
     private HibernateCustomerRepo customerRepo;
 
+    public CustomerServiceImpl() {
+    }
+
+    public CustomerServiceImpl(HibernateCustomerRepo customerRepo) {
+        this.customerRepo = customerRepo;
+    }
+
     public void setCustomerRepo(HibernateCustomerRepo customerRepo) {
         this.customerRepo = customerRepo;
     }
