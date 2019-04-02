@@ -4,8 +4,12 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean name="customerRepo" class="com.yash.repository.HibernateCustomerRepoImpl"/>
-    <bean name="customerService" class="com.yash.service.CustomerServiceImpl" autowire="byName">
+    <bean name="customerRepo"
+          class="com.yash.repository.HibernateCustomerRepoImpl"/>
+    <bean name="customerService"
+          class="com.yash.service.CustomerServiceImpl"
+          autowire="byName"
+          scope="singleton">
         <!--<constructor-arg index="0" ref="customerRepo" />-->
     </bean>
 
