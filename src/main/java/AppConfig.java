@@ -10,12 +10,12 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan({"com.yash"})
 public class AppConfig {
 
-    @Bean(name = "customerService")
+    /*@Bean(name = "customerService")
     public CustomerService getCustomerService() {
         CustomerServiceImpl service = new CustomerServiceImpl();//getCustomerRepo());
         //service.setCustomerRepo(getCustomerRepo());
         return service;
-    }
+    }*/
 
     /*@Bean(name = "customerRepo")
     public HibernateCustomerRepo getCustomerRepo(){
