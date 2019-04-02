@@ -10,12 +10,12 @@ public class CustomerServiceImpl implements CustomerService {
 
     public CustomerServiceImpl (){}
 
+    @Autowired
     public void setCustomerRepo(HibernateCustomerRepo customerRepo) {
         System.out.println("Setter Inject in Java Conf");
         this.customerRepo = customerRepo;
     }
 
-    @Autowired
     private HibernateCustomerRepo customerRepo;
 
     public  CustomerServiceImpl(HibernateCustomerRepo customerRepo) {
