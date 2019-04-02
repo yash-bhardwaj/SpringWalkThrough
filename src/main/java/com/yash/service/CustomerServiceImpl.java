@@ -7,9 +7,13 @@ import com.yash.repository.HibernateCustomerRepoImpl;
 import java.util.List;
 
 public class CustomerServiceImpl implements CustomerService {
-    private HibernateCustomerRepo repo = new HibernateCustomerRepoImpl();
+    private HibernateCustomerRepo customerRepo;
+
+    public void setCustomerRepo(HibernateCustomerRepo customerRepo) {
+        this.customerRepo = customerRepo;
+    }
 
     public List<Customer> findAll() {
-        return repo.findAll();
+        return customerRepo.findAll();
     }
 }
