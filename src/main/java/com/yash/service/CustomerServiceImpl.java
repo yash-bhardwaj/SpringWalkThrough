@@ -2,14 +2,18 @@ package com.yash.service;
 
 import com.yash.model.Customer;
 import com.yash.repository.HibernateCustomerRepo;
-import com.yash.repository.HibernateCustomerRepoImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service("customerService")
 public class CustomerServiceImpl implements CustomerService {
-    private HibernateCustomerRepo repo = new HibernateCustomerRepoImpl();
+
+    @Autowired
+    private HibernateCustomerRepo customerRepo;
 
     public List<Customer> findAll() {
-        return repo.findAll();
+        return customerRepo.findAll();
     }
 }
