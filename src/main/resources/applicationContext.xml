@@ -7,12 +7,11 @@
     http://www.springframework.org/schema/context
      http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <context:annotation-config/>
     <context:property-placeholder location="app.properties"/>
 
     <bean name="customerRepo"
-          class="com.yash.repository.HibernateCustomerRepoImpl">
-        <property name="dbUsername" value="${dbUsername}"/>
-    </bean>
+          class="com.yash.repository.HibernateCustomerRepoImpl"/>
     <bean name="customerService"
           class="com.yash.service.CustomerServiceImpl"
           autowire="byName"
