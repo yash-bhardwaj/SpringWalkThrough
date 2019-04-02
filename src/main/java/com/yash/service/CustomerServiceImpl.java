@@ -6,9 +6,18 @@ import com.yash.repository.HibernateCustomerRepo;
 import java.util.List;
 
 public class CustomerServiceImpl implements CustomerService {
+
+    public CustomerServiceImpl (){}
+
+    public void setCustomerRepo(HibernateCustomerRepo customerRepo) {
+        System.out.println("Setter Inject in Java Conf");
+        this.customerRepo = customerRepo;
+    }
+
     private HibernateCustomerRepo customerRepo;
 
     public  CustomerServiceImpl(HibernateCustomerRepo customerRepo) {
+        System.out.println("Constructor Inject in Java Conf");
         this.customerRepo = customerRepo;
     }
 
