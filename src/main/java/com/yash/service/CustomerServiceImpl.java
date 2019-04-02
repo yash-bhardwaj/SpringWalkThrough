@@ -2,6 +2,7 @@ package com.yash.service;
 
 import com.yash.model.Customer;
 import com.yash.repository.HibernateCustomerRepo;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
@@ -14,6 +15,7 @@ public class CustomerServiceImpl implements CustomerService {
         this.customerRepo = customerRepo;
     }
 
+    @Autowired
     private HibernateCustomerRepo customerRepo;
 
     public  CustomerServiceImpl(HibernateCustomerRepo customerRepo) {
