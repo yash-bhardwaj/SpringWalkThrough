@@ -11,12 +11,11 @@ import java.util.List;
 public class CustomerServiceImpl implements CustomerService {
 
     @Autowired
-    public void setCustomerRepo(HibernateCustomerRepo customerRepo) {
-        System.out.println("Injecting using Setter");
+    public  CustomerServiceImpl(HibernateCustomerRepo customerRepo) {
+        System.out.println("Contructor Injection");
         this.customerRepo = customerRepo;
     }
 
-    //@Autowired
     private HibernateCustomerRepo customerRepo;
 
     public List<Customer> findAll() {
