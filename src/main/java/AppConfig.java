@@ -17,8 +17,8 @@ public class AppConfig {
         return service;
     }
 
-    @Bean(name = "customerRepo")
+    /*@Bean(name = "customerRepo")
     public HibernateCustomerRepo getCustomerRepo(){
         return new HibernateCustomerRepoImpl();
-    }
+    }*/
 }
