@@ -2,228 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60e6f0bd-4d0d-4ae5-a966-7fad6fe1abed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BMFBOEIM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/src/main/java/com/bmw/wallet/cron/ImilesWalletCronSchedulerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/src/main/java/com/bmw/wallet/cron/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/src/main/java/com/bmw/wallet/cron/config/SchedulerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/src/main/java/com/bmw/wallet/cron/oauth/response/dto/OauthRestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/src/main/java/com/bmw/wallet/cron/task/ImilesWalletScheduleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/src/test/java/com/bmw/wallet/cron/ImilesWalletCronSchedulerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/target/classes/com/bmw/wallet/cron/ImilesWalletCronSchedulerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/target/classes/com/bmw/wallet/cron/ServletInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/target/classes/com/bmw/wallet/cron/config/SchedulerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/target/classes/com/bmw/wallet/cron/oauth/response/dto/OauthRestResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/target/classes/com/bmw/wallet/cron/task/ImilesWalletScheduleTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/target/test-classes/com/bmw/wallet/cron/ImilesWalletCronSchedulerApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/IMilesWalletApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/auth/server/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/controller/ImilesWalletController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/entity/BaseEntityAudit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/entity/CustomUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/entity/Imiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/entity/ImilesTransactionHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/enumeration/ImilesEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/enumeration/ImilesTransactionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/enumeration/RoleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/ext/component/controller/ImilesExternalComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/jms/config/ActiveMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/model/ImilesRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/model/ImilesResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/model/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/mq/ImilesListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/repository/ImilesWalletRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/resource/server/config/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/service/AuthenticationFacadeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/service/ImilesWalletService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/service/impl/AuthenticationFacadeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/service/impl/ImilesWalletServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/util/ImilesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/java/com/bmw/imiles/web/security/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/resources/sql_scripts/Imiles_Wallet.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/src/test/java/com/bmw/imiles/IMilesWalletApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/IMilesWalletApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/ServletInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/auth/server/config/AuthorizationServerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/controller/ImilesWalletController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/entity/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/entity/BaseEntityAudit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/entity/Imiles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/entity/ImilesTransactionHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/entity/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/enumeration/ImilesEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/enumeration/ImilesTransactionEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/enumeration/RoleType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/ext/component/controller/ImilesExternalComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/jms/config/ActiveMQConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/model/ImilesRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/model/ImilesResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/model/UserDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/mq/ImilesListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/repository/ImilesWalletRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/repository/RoleRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/resource/server/config/ResourceServerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/service/AuthenticationFacadeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/service/ImilesWalletService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/service/impl/AuthenticationFacadeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/service/impl/ImilesWalletServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/util/ImilesUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/com/bmw/imiles/web/security/config/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/classes/sql_scripts/Imiles_Wallet.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1.war.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/IMilesWalletApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/ServletInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/auth/server/config/AuthorizationServerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/controller/ImilesWalletController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/entity/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/entity/BaseEntityAudit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/entity/Imiles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/entity/ImilesTransactionHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/entity/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/enumeration/ImilesEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/enumeration/ImilesTransactionEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/enumeration/RoleType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/ext/component/controller/ImilesExternalComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/jms/config/ActiveMQConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/model/ImilesRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/model/ImilesResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/model/UserDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/mq/ImilesListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/repository/ImilesWalletRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/repository/RoleRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/resource/server/config/ResourceServerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/service/AuthenticationFacadeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/service/ImilesWalletService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/service/impl/AuthenticationFacadeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/service/impl/ImilesWalletServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/util/ImilesUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/com/bmw/imiles/web/security/config/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/classes/sql_scripts/Imiles_Wallet.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/HdrHistogram-2.1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/HikariCP-3.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/LatencyUtils-2.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/activemq-broker-5.15.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/activemq-client-5.15.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/activemq-openwire-legacy-5.15.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/bcpkix-jdk15on-1.56.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/bcprov-jdk15on-1.56.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/byte-buddy-1.9.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/classmate-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/commons-codec-1.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/guava-18.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/hawtbuf-1.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/hibernate-commons-annotations-5.0.4.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/hibernate-core-5.3.10.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/hibernate-validator-6.0.17.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jackson-core-2.9.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jackson-databind-2.9.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jackson-datatype-jdk8-2.9.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jackson-datatype-jsr310-2.9.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jackson-module-parameter-names-2.9.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jandex-2.0.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/javassist-3.23.2-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/javax.jms-api-2.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/javax.transaction-api-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/jul-to-slf4j-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/log4j-api-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/log4j-to-slf4j-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/micrometer-core-1.1.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/postgresql-42.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/snakeyaml-1.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-aop-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-aspects-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-beans-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-actuator-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-actuator-autoconfigure-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-autoconfigure-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-starter-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-starter-activemq-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-starter-actuator-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-starter-aop-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-starter-data-jpa-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-starter-jdbc-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-starter-json-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-starter-logging-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-starter-security-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-boot-starter-web-2.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-context-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-core-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-data-commons-2.1.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-data-jpa-2.1.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-expression-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-jcl-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-jdbc-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-jms-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-messaging-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-orm-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-security-config-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-security-core-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-security-jwt-1.0.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-security-oauth2-2.2.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-security-oauth2-autoconfigure-2.0.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-security-web-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-tx-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-web-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/spring-webmvc-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/iMiles_wallet-0.0.1/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/surefire-reports/TEST-com.bmw.imiles.IMilesWalletApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/surefire-reports/com.bmw.imiles.IMilesWalletApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wallet/iMiles_wallet/target/test-classes/com/bmw/imiles/IMilesWalletApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/young/yg-calc/target/" />
     <ignored path="$PROJECT_DIR$/Ride/RideManagementService/target/" />
@@ -243,11 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/resources/sql_scripts/Imiles_Wallet.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="4" column="24" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -278,6 +66,7 @@
         <option value="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/src/main/java/com/bmw/wallet/cron/ImilesWalletCronSchedulerApplication.java" />
         <option value="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/src/main/java/com/bmw/wallet/cron/task/ImilesWalletScheduleTask.java" />
         <option value="$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -321,7 +110,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567512308386" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567512477323" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringWalkThrough" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -418,6 +207,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24362417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -787,9 +577,6 @@
     <entry file="file://$PROJECT_DIR$/vehicle-search/src/main/resources/META-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -797,10 +584,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Wallet/iMiles_wallet/src/main/resources/sql_scripts/Imiles_Wallet.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
