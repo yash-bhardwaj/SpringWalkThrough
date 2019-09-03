@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/Ride/MqClientApp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ride/RideManagementService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ride/iMilesSchedulerService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Wallet/Imiles_wallet_cron_scheduler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Wallet/iMiles_wallet" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/young/yg-calc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/young/yg-mongo" charset="UTF-8" />
+  </component>
+</project>

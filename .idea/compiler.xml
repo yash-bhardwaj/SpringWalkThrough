@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="iMiles_wallet" />
+        <module name="Imiles_wallet_cron_scheduler" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="iMilesSchedulerService" target="1.8" />
+      <module name="RideManagementService (1) (com.example)" target="1.8" />
+      <module name="RideManagementService (2) (com.bmw)" target="1.8" />
+      <module name="vehicle-search" target="1.8" />
+      <module name="yg-calc" target="1.8" />
+      <module name="yg-message" target="1.8" />
+      <module name="yg-mongo" target="1.8" />
+      <module name="young" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Imiles_wallet_cron_scheduler" options="-parameters" />
+      <module name="RideManagementService (1) (com.example)" options="-parameters" />
+      <module name="RideManagementService (2) (com.bmw)" options="-parameters" />
+      <module name="iMilesSchedulerService" options="-parameters" />
+      <module name="iMiles_wallet" options="-parameters" />
+    </option>
+  </component>
+</project>
