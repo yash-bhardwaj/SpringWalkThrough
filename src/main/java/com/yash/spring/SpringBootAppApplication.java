@@ -40,14 +40,15 @@ public class SpringBootAppApplication {
             queryNum = Integer.parseInt(i)-1;
             if (queryNum + 1 > n ) throw new RuntimeException("ArrayIndexOutOfBounds");
             if (queryNum <= b.length()){
-                characterMap.put(queryNum, '1');
+                b = b.substring(0,queryNum) + 1 + b.substring(queryNum+1);
             }
-            b = characterMap.values().stream().map(String::valueOf).collect(Collectors.joining(""));
+            //b = characterMap.values().stream().map(String::valueOf).collect(Collectors.joining(""));
             if (a.equals(b)) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");
             }
+            System.out.println(b);
         }
     }
 
