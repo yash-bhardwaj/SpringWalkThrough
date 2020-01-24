@@ -10,19 +10,22 @@ public class SpringBootAppApplication {
 	public static void main(String[] args) throws IOException {
 //		SpringApplication.run(SpringBootAppApplication.class, args);
 		final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		final String string = br.readLine();
-		int i = 0;
-		final int length = string.length();
-		System.out.print(getAllEvens(string));
-		while(i < length) {
-			++i;
-			System.out.print(" ");
-			System.out.print(getAllEvens(string.substring(i, length)));
+		int i = Integer.parseInt(br.readLine());
+		while(i > 0) {
+			--i;
+			final String line = br.readLine();
+			System.out.println(countNoVowelChars(line) + "/" + line.length());
 		}
 	}
 
-	private static long getAllEvens(final String substring) {
-		return substring.chars().mapToObj(e -> (char) e).filter(c -> c%2 == 0).count();
+	private static long countNoVowelChars(final String line) {
+		return line
+				.replace("www.", "")
+				.replace("a", "")
+				.replace("e", "")
+				.replace("i", "")
+				.replace("o", "")
+				.replace("u", "").length() + 1;
 	}
 
 }
